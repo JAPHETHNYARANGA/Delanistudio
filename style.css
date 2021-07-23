@@ -235,7 +235,7 @@ body,html{
         transform: translateX(-50%);
     } */
     #ontario, #image4, #blank , #orange, #image5, #image6, #image7, #image8{
-        padding-bottom: 2rem;
+        padding: 2rem;
         width:20%;
     }
     .contact-us{
@@ -320,7 +320,7 @@ body,html{
         transform: translateX(-50%);
     } */
     #ontario, #image4, #blank , #orange, #image5, #image6, #image7, #image8{
-        padding-bottom: 2rem;
+        padding: 2rem;
         width:20%;
     }
     .contact-us{
