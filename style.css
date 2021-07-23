@@ -15,6 +15,15 @@ body,html{
         background-size: 100% 80%;
         background-position: center;
         height:20rem; 
+        font-size: small;
+        text-align: center;
+        color: white;
+        
+        
+    }
+    .landing-items{
+        position:relative;
+        top:20%;
     }
    
     .about-us{
@@ -101,6 +110,12 @@ body,html{
         background-size: 100% 80%;
         background-position: center;
         height:20rem; 
+        text-align: center;
+        color: white;
+    }
+    .landing-items{
+        position:relative;
+        top:20%;
     }
    
     .about-us{
@@ -186,8 +201,13 @@ body,html{
         background-size: 100% 80%;
         background-position: center;
         height:25rem; 
+        text-align: center;
+        color: white;
     }
-   
+    .landing-items{
+        position:relative;
+        top:20%;
+    }
     .about-us{
         text-align: center;
         width:100%;
@@ -268,11 +288,19 @@ body,html{
     .landing{
         background-image: url('./images/backgrounds/h_img.jpg');
         background-repeat: no-repeat;
-        background-size: 80% 80%;
+        background-size: 80% 90rem;
         background-position: center;
         height:35rem; 
+        text-align: center;
+        color: white;
+        
     }
-   
+    
+
+    .landing-items{
+        position:relative;
+        top:20%;
+    }
     .about-us{
         text-align: center;
         width:100%;
