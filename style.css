@@ -382,6 +382,23 @@ body,html{
         background-size: 80% 80%;
         background-position: center;
         height:35rem; 
+        text-align: center;
+        position: relative;
+        color:white;
+        
+        
+    }
+    .contactus-form{
+        position: absolute;
+        top:5rem;
+        width:60%;
+        left:50%;
+        transform: translateX(-50%);
+    }
+    
+    .sideby{
+        display: flex;
+        flex-direction: row;
     }
     #img1,#img2,#img3,#img4,#img5,#img6,#img7,#img8, #img9{
         height:3rem;
