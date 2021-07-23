@@ -64,6 +64,7 @@ body,html{
     } */
     #ontario, #image4, #blank , #orange, #image5, #image6, #image7, #image8{
         padding-bottom: 2rem;
+        width:80%;
     }
     .contact-us{
         background-image: url('./images/backgrounds/c_image.jpg');
