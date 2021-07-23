@@ -37,6 +37,12 @@ body,html{
         background-size: 100% 80%;
         background-position: center;
         height:20rem;
+        color:white;
+        text-align: center;
+    }
+    .service-text{
+        position: relative;
+        top:2rem;
     }
     .what-we-do{
         margin: 2rem 0 0 0 ;
@@ -123,12 +129,19 @@ body,html{
         width:100%;
        
     }
+    
     .services{
         background-image: url('./images/backgrounds/s_image.jpg');
         background-repeat: no-repeat;
         background-size: 100% 80%;
         background-position: center;
         height:20rem;
+        color:white;
+        text-align: center;
+    }
+    .service-text{
+        position: relative;
+        top:3rem;
     }
     .what-we-do{
         margin: 2rem 0 0 0 ;
@@ -219,6 +232,12 @@ body,html{
         background-size: 100% 80%;
         background-position: center;
         height:25rem;
+        color:white;
+        text-align: center;
+    }
+    .service-text{
+        position: relative;
+        top:5rem;
     }
     .what-we-do{
         margin: 2rem 0 0 0 ;
@@ -312,6 +331,12 @@ body,html{
         background-size: 80% 80%;
         background-position: center;
         height:35rem; 
+        color:white;
+        text-align: center;
+    }
+    .service-text{
+        position: relative;
+        top:12rem;
     }
     .what-we-do{
         margin: 2rem 0 0 0 ;
