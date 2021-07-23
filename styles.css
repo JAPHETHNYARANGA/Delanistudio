@@ -4,3 +4,15 @@ body,html{
     margin:0;
     font-family: 'STIX Two Math', serif;
 }
+.landing{
+    background-image: url('./images/backgrounds/h_img.jpg');
+    background-repeat: no-repeat;
+    background-size: 300px 100px;
+    height:300px;
+}
+.services{
+    background-image: url('./images/backgrounds/s_image.jpg');
+    background-repeat: no-repeat;
+    background-size: 300px 100px;
+    height:300px;
+}
