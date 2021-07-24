@@ -6,7 +6,9 @@ body,html{
     margin:0;
     font-family: 'STIX Two Math', serif;
 }
-
+#icon1t{
+    display:none;
+}
 /*phone size*/
 @media screen and (max-width:480px){
     .landing{
@@ -359,6 +361,10 @@ body,html{
     .icons>img{
         height:10rem;
         width:10rem;
+    }
+    #icon1{
+        margin-left: 15px;
+        z-index: 2;
     }
      #icon2, #icon3{
        margin-left: 25rem;
