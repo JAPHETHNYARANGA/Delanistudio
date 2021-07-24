@@ -8,12 +8,15 @@ body,html{
 }
 #icon1t{
     display:none;
+    text-align: center;
 }
 #icon3t{
     display:none;
+    text-align: center;
 }
 #icon2t{
     display:none;
+    text-align: center;
 }
 /*phone size*/
 @media screen and (max-width:480px){
@@ -269,9 +272,15 @@ body,html{
         height:7rem;
         width:7rem;
     }
-    #icon2, #icon3{
-        margin-left: 8rem;
-     }
+    #icon1{
+        position:relative;
+        right:200px;
+    }
+    
+     #icon3{
+        position:relative;
+        left:200px;
+    } 
     .portfolio{
         text-align: center;
         position: relative;
@@ -369,12 +378,14 @@ body,html{
         width:10rem;
     }
     #icon1{
-        margin-left: 15px;
-        z-index: 2;
+        position:relative;
+        right:400px;
     }
-     #icon2, #icon3{
-       margin-left: 25rem;
-    }
+    
+     #icon3{
+        position:relative;
+        left:400px;
+    } 
     .portfolio{
         text-align: center;
         position: relative;
