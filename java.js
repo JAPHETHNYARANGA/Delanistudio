@@ -7,4 +7,8 @@ $(document).ready(function(){
         $("#icon3t").toggle();
         $("#img3show").toggle();
     })
+    $("#icon2").click(function(){
+        $("#icon2t").toggle();
+        $("#img2show").toggle();
+    })
 })

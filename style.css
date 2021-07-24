@@ -12,6 +12,9 @@ body,html{
 #icon3t{
     display:none;
 }
+#icon2t{
+    display:none;
+}
 /*phone size*/
 @media screen and (max-width:480px){
     .landing{
