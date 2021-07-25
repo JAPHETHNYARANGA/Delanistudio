@@ -18,6 +18,18 @@ body,html{
     display:none;
     text-align: center;
 }
+input[type=text] {
+    background:transparent;
+    color: white;
+  }
+  input[type=email] {
+    background:transparent;
+    color:white;
+  }
+  textarea[type=text] {
+    background:transparent;
+    color: white;
+  }
 /*phone size*/
 @media screen and (max-width:480px){
     .landing{
@@ -441,6 +453,9 @@ body,html{
     .footer{
         text-align: center;
     }
-    
-    
+   
+    .btn{
+        padding:0.5rem;
+        width:8rem;
+    }
 }
