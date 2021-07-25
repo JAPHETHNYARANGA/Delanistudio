@@ -30,20 +30,34 @@ input[type=text] {
     background:transparent;
     color: white;
   }
-  .bg{
-      position:relative;
+  .bg1,.bg2,.bg3,.bg4,.bg5,.bg6,.bg7,.bg8{
+      position: relative;
+      text-align: center;
   }
-  .po:hover{
-        z-index:2;                            ;
-        background-color: rgb(49, 14, 14);
-        height:20rem;
-        position:absolute;
-        left:50%;
-        top:50%;
-        transform: translate(-50%, -50%);  
+  .po1,.po2,.po3,.po4,.po5,.po6,.po7,.po8{
+      display: none;
+        z-index: 1;
+        color: black;
+        position: absolute;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-weight: 500;
+            font-size: xx-large;
+            background-color: gainsboro;
+            height:100%;
+            width:95%;
+            opacity: 0.5;
   }
+          
+    
+    
   
-/*phone size*/
+
+
+
+
 @media screen and (max-width:480px){
     .landing{
         background-image: url('./images/backgrounds/h_img.jpg');
@@ -239,6 +253,26 @@ input[type=text] {
     .footer{
         text-align: center;
     }
+    .bg1,.bg2,.bg3,.bg4,.bg5,.bg6,.bg7,.bg8{
+        position: relative;
+        text-align: center;
+    }
+    .po1,.po2,.po3,.po4,.po5,.po6,.po7,.po8{
+        display: none;
+          z-index: 1;
+          color: black;
+          position: absolute;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              font-weight: 500;
+              font-size: xx-large;
+              background-color: gainsboro;
+              height:100%;
+              width:95%;
+              opacity: 0.5;
+    }
 }
 
 /*large tablet size*/
@@ -379,6 +413,26 @@ input[type=text] {
         padding:0.5rem;
         width:8rem;
     }
+    .bg1,.bg2,.bg3,.bg4,.bg5,.bg6,.bg7,.bg8{
+        position: relative;
+        text-align: center;
+    }
+    .po1,.po2,.po3,.po4,.po5,.po6,.po7,.po8{
+        display: none;
+          z-index: 1;
+          color: black;
+          position: absolute;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              font-weight: 500;
+              font-size: xx-large;
+              background-color: gainsboro;
+              height:100%;
+              width:95%;
+              opacity: 0.5;
+    }
     
 }
 
@@ -456,13 +510,17 @@ input[type=text] {
     .portfolio>h1{
         text-align: center;
     }
+    .bg1,.bg2,.bg3,.bg4,.bg5,.bg6,.bg7,.bg8{
+        padding-left:1rem;
+    }
     
     .images{
-        margin-left: 20%;
+        margin-left: 18%;
     } 
     .top{
         display:flex;
         flex-direction: row;
+        margin-bottom: 1rem;
     }
     .bottom{
         display: flex;
@@ -519,5 +577,26 @@ input[type=text] {
         padding:0.5rem;
         width:8rem;
     }
+    .bg1,.bg2,.bg3,.bg4,.bg5,.bg6,.bg7,.bg8{
+        position: relative;
+        text-align: center;
+    }
+    .po1,.po2,.po3,.po4,.po5,.po6,.po7,.po8{
+        display: none;
+          z-index: 1;
+          color: black;
+          position: absolute;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              font-weight: 500;
+              font-size: xx-large;
+              background-color: gainsboro;
+              height:100%;
+              width:95%;
+              opacity: 0.5;
+    }
+    
   
 }
