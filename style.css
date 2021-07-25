@@ -30,6 +30,19 @@ input[type=text] {
     background:transparent;
     color: white;
   }
+  .bg{
+      position:relative;
+  }
+  .po:hover{
+        z-index:2;                            ;
+        background-color: rgb(49, 14, 14);
+        height:20rem;
+        position:absolute;
+        left:50%;
+        top:50%;
+        transform: translate(-50%, -50%);  
+  }
+  
 /*phone size*/
 @media screen and (max-width:480px){
     .landing{
@@ -297,21 +310,55 @@ input[type=text] {
         text-align: center;
         position: relative;
     }
+    .portfolio>h1{
+        text-align: center;
+    }
+    
+    .images{
+        margin-left: 5%;
+    } 
+    
+    .top{
+        display:flex;
+        flex-direction: row;
+    }
+    .bottom{
+        display: flex;
+        flex-direction: row;
+    }
     /* .images{
         position:absolute;
         left:50%;
         transform: translateX(-50%);
     } */
     #ontario, #image4, #blank , #orange, #image5, #image6, #image7, #image8{
-        padding: 2rem;
-        width:20%;
+        width:90%;
     }
     .contact-us{
         background-image: url('./images/backgrounds/c_image.jpg');
         background-repeat:no-repeat;
-        background-size: 100% 80%;
+        background-size: 80% 80%;
         background-position: center;
-        height:25rem;
+        height:35rem; 
+        text-align: center;
+        position: relative;
+        color:white; 
+    }
+  
+    .contactus-form{
+        position: absolute;
+        top:5rem;
+        width:60%;
+        left:50%;
+        transform: translateX(-50%);
+       
+    }
+    .Input1{
+       margin-left: 10px;
+    }
+    .sideby{
+        display: flex;
+        flex-direction: row;
     }
     #img1,#img2,#img3,#img4,#img5,#img6,#img7,#img8, #img9{
         height:1rem;
@@ -327,6 +374,10 @@ input[type=text] {
     }
     .footer{
         text-align: center;
+    }
+    .btn{
+        padding:0.5rem;
+        width:8rem;
     }
     
 }
@@ -399,18 +450,28 @@ input[type=text] {
         left:400px;
     } 
     .portfolio{
-        text-align: center;
+        height:45rem;
         position: relative;
     }
-    /* .images{
-        position:absolute;
-        left:50%;
-        transform: translateX(-50%);
-    } */
-    #ontario, #image4, #blank , #orange, #image5, #image6, #image7, #image8{
+    .portfolio>h1{
+        text-align: center;
+    }
+    
+    .images{
+        margin-left: 20%;
+    } 
+    .top{
+        display:flex;
+        flex-direction: row;
+    }
+    .bottom{
+        display: flex;
+        flex-direction: row;
+    }
+    /* #ontario, #image4, #blank , #orange, #image5, #image6, #image7, #image8{
         padding: 2rem;
         width:20%;
-    }
+    } */
     .contact-us{
         background-image: url('./images/backgrounds/c_image.jpg');
         background-repeat:no-repeat;
@@ -458,4 +519,5 @@ input[type=text] {
         padding:0.5rem;
         width:8rem;
     }
+  
 }
