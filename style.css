@@ -52,7 +52,9 @@ input[type=text] {
   }
           
     
-    
+    .hide,.hide2,.hide3{
+        display:none;
+    }
   
 
 
@@ -483,10 +485,10 @@ input[type=text] {
     .icons{
         margin-top: 3rem;
         display: flex;
-        flex-direction: row;
+        /* flex-direction: row;
         position: absolute;
         left:50%;
-        transform: translateX(-50%);
+        transform: translateX(-50%); */
         
         
     }
@@ -494,15 +496,15 @@ input[type=text] {
         height:10rem;
         width:10rem;
     }
-    #icon1{
+    /* #icon1{
         position:relative;
-        right:250px;
+        right:25%;
     }
     
      #icon3{
         position:relative;
-        left:250px;
-    } 
+        left:25%;
+    }  */
     .portfolio{
         height:45rem;
         position: relative;

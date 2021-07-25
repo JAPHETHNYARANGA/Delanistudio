@@ -1,15 +1,15 @@
 $(document).ready(function(){
-    $("#icon1").click(function(){
-        $("#icon1t").toggle();
-        $("#img1show").toggle()
+    $(".main").click(function(){
+        $(".hide").toggle();
+        $(".show").toggle()
     })
-    $("#icon3").click(function(){
-        $("#icon3t").toggle();
-        $("#img3show").toggle();
+    $(".main2").click(function(){
+        $(".hide2").toggle();
+        $(".show2").toggle();
     })
-    $("#icon2").click(function(){
-        $("#icon2t").toggle();
-        $("#img2show").toggle();
+    $(".main3").click(function(){
+        $(".hide3").toggle();
+        $(".show3").toggle();
     })
 
    
