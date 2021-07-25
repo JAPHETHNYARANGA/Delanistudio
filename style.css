@@ -466,7 +466,10 @@ input[type=text] {
         color: white;
         
     }
-    
+    .MouseClick{
+        position: relative;
+        margin-top: 3%;
+    }
 
     .landing-items{
         position:relative;
