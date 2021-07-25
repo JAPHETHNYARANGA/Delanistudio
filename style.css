@@ -515,9 +515,10 @@ input[type=text] {
     }
     
     .images{
-       position: absolute;
-       left:50%;
-       transform: translateX(-50%);
+
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
     } 
     .top{
         display:flex;
@@ -559,12 +560,10 @@ input[type=text] {
         display: flex;
         flex-direction: row;
     }
-    
-    #blank,#ontario,#orange,#image4,#image5,#image6,#image7,#image8{
-        height:20rem;
-        width:20rem;
+    #ontario, #image4, #blank , #orange, #image5, #image6, #image7, #image8{
+        height:12rem;
+        width:12rem;
     }
-   
     .icon{
         margin-top: 3rem;
         display: flex;
@@ -584,7 +583,6 @@ input[type=text] {
     .bg1,.bg2,.bg3,.bg4,.bg5,.bg6,.bg7,.bg8{
         position: relative;
         text-align: center;
-       
     }
     .po1,.po2,.po3,.po4,.po5,.po6,.po7,.po8{
         display: none;
