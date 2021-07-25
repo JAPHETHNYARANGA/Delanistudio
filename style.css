@@ -515,7 +515,9 @@ input[type=text] {
     }
     
     .images{
-        margin-left: 18%;
+       position: absolute;
+       left:50%;
+       transform: translateX(-50%);
     } 
     .top{
         display:flex;
@@ -557,10 +559,12 @@ input[type=text] {
         display: flex;
         flex-direction: row;
     }
-    #img1,#img2,#img3,#img4,#img5,#img6,#img7,#img8, #img9{
-        height:3rem;
-        width:3rem;
+    
+    #blank,#ontario,#orange,#image4,#image5,#image6,#image7,#image8{
+        height:20rem;
+        width:20rem;
     }
+   
     .icon{
         margin-top: 3rem;
         display: flex;
@@ -580,6 +584,7 @@ input[type=text] {
     .bg1,.bg2,.bg3,.bg4,.bg5,.bg6,.bg7,.bg8{
         position: relative;
         text-align: center;
+       
     }
     .po1,.po2,.po3,.po4,.po5,.po6,.po7,.po8{
         display: none;

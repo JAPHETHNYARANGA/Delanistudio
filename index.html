@@ -133,7 +133,7 @@
             <div class="contactus-form">
                 <h1>Contact Us</h1>
                 <div class="form">
-                    <form>
+                    <form onsubmit = "notify()">
                         <div class="sideby">
                             <div class="col-6 form-group">
                                 <input type="Text" class="form-control" id="Input1" placeholder="Name....">
@@ -147,11 +147,11 @@
                         <br><br>
                         <div class="col12">
                             <div class="form-group">
-                            e<textarea class="form-control" type="text" id="Textarea1" rows="6" placeholder="Your message here...."></textarea>
+                            <textarea class="form-control" type="text" id="Textarea1" rows="6" placeholder="Your message here...."></textarea>
                               </div>
                         </div>
                         <br>
-                        <div class="btn btn-primary">Submit</div>
+                        <div class="btn btn-primary" type="submit">Submit</div>
                     </form>
                 </div>
             </div>
