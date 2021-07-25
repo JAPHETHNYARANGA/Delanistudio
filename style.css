@@ -129,11 +129,7 @@ input[type=text] {
         text-align: center;
         position: relative;
     }
-    /* .images{
-        position:absolute;
-        left:50%;
-        transform: translateX(-50%);
-    } */
+    
     #ontario, #image4, #blank , #orange, #image5, #image6, #image7, #image8{
         padding-bottom: 2rem;
         width:80%;
@@ -240,11 +236,7 @@ input[type=text] {
         text-align: center;
         position: relative;
     }
-    /* .images{
-        position:absolute;
-        left:50%;
-        transform: translateX(-50%);
-    } */
+    
     #ontario, #image4, #blank , #orange, #image5, #image6, #image7, #image8{
         padding-bottom: 2rem;
         width:80%;
@@ -378,11 +370,7 @@ input[type=text] {
         display: flex;
         flex-direction: row;
     }
-    /* .images{
-        position:absolute;
-        left:50%;
-        transform: translateX(-50%);
-    } */
+   
     #ontario, #image4, #blank , #orange, #image5, #image6, #image7, #image8{
         width:90%;
     }
@@ -504,10 +492,7 @@ input[type=text] {
     .icons{
         margin-top: 3rem;
         display: flex;
-        /* flex-direction: row;
-        position: absolute;
-        left:50%;
-        transform: translateX(-50%); */
+       
         
         
     }
@@ -515,15 +500,7 @@ input[type=text] {
         height:10rem;
         width:10rem;
     }
-    /* #icon1{
-        position:relative;
-        right:25%;
-    }
     
-     #icon3{
-        position:relative;
-        left:25%;
-    }  */
     .portfolio{
         height:45rem;
         position: relative;
@@ -550,10 +527,7 @@ input[type=text] {
         display: flex;
         flex-direction: row;
     }
-    /* #ontario, #image4, #blank , #orange, #image5, #image6, #image7, #image8{
-        padding: 2rem;
-        width:20%;
-    } */
+   
     .contact-us{
         background-image: url('./images/backgrounds/c_image.jpg');
         background-repeat:no-repeat;
