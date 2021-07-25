@@ -69,17 +69,15 @@ $(document).ready(function(){
     
 
 $(document).ready(function(){
-    $(".form1").submit(function(event){
-      var name = $("#Input1").val();
-      var email = $("#Email1").val();
-      var message = $("Textarea1").val();
-      if ($("#Input1").val() && $("#Email1").val()){
-        alert (name + ", we have received your message. Thank you for reaching out to us.");
-      }
-      else {
-        alert("Please enter your name and email!");
-      }
-      
-    });
+    $('.btn').click(function () {
+        var Name = $('#Input1').val();
+        var Email = $('#Email1').val();
+        var Message = $('#Textarea1');
+        if (Name == '' || Email == '' || Message == '') {
+            alert('Please fill all the fields');
+        } else {
+            alert(' Hello ' + Name + ' your message has been received, we will get intouch with you soon');
+        }
+  });
   
   });
