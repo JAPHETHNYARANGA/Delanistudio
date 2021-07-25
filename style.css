@@ -496,12 +496,12 @@ input[type=text] {
     }
     #icon1{
         position:relative;
-        right:400px;
+        right:250px;
     }
     
      #icon3{
         position:relative;
-        left:400px;
+        left:250px;
     } 
     .portfolio{
         height:45rem;
