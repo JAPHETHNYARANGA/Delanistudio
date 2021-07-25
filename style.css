@@ -5,6 +5,10 @@ body,html{
     padding:0;
     margin:0;
     font-family: 'STIX Two Math', serif;
+    font-weight: 500;
+}
+p{
+    font-size: 20px;
 }
 #icon1t{
     display:none;
@@ -140,7 +144,10 @@ input[type=text] {
         background-size: 100% 80%;
         background-position: center;
         height:30rem;
+        text-align: center;
+        
     }
+    
     .sideby{
         margin-top:50px;
         display: flex;
