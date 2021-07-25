@@ -139,7 +139,12 @@ input[type=text] {
         background-repeat:no-repeat;
         background-size: 100% 80%;
         background-position: center;
-        height:20rem;
+        height:30rem;
+    }
+    .sideby{
+        margin-top:50px;
+        display: flex;
+        
     }
     #img1,#img2,#img3,#img4,#img5,#img6,#img7,#img8, #img9{
         height:1rem;
@@ -155,6 +160,10 @@ input[type=text] {
     }
     .footer{
         text-align: center;
+    }
+    .form{
+        text-align: center;
+        
     }
 }
 

@@ -64,12 +64,22 @@ $(document).ready(function(){
         $(".po8").hide();
       });
 });
-function notify(){
-    var First = document.getElementById('#Input1').value;
-    var Last = document.getElementById('#Email1').value;
 
-    alert( First + Last + " " +" Your message has been received")
-    
-}
 
     
+
+$(document).ready(function(){
+    $(".form1").submit(function(event){
+      var name = $("#Input1").val();
+      var email = $("#Email1").val();
+      var message = $("Textarea1").val();
+      if ($("#Input1").val() && $("#Email1").val()){
+        alert (name + ", we have received your message. Thank you for reaching out to us.");
+      }
+      else {
+        alert("Please enter your name and email!");
+      }
+      
+    });
+  
+  });
